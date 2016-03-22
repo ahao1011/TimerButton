@@ -62,7 +62,8 @@
     
     _BtnTitleColor = BtnTitleColor;
     
-    self.titleLabel.textColor = BtnTitleColor;
+    [self setTitleColor:BtnTitleColor forState:UIControlStateNormal];
+    [self setTitleColor:BtnTitleColor forState:UIControlStateHighlighted];
 }
 
 - (void)addNstimer{

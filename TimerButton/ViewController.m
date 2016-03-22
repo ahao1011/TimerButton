@@ -28,6 +28,7 @@
     
     _btn= [[TimerButton alloc]initWithFrame:CGRectMake(100, 100, 200, 50)];
     [self.btn addTarget:self action:@selector(test) forControlEvents:UIControlEventTouchUpInside];
+    self.btn.BtnTitleColor = [UIColor redColor];  // 颜色设置
     [self.view addSubview:self.btn];
 }
 
